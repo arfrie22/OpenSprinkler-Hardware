@@ -1,0 +1,140 @@
+(footprint "SM3R3703T01"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3bfcd014-0a47-431e-8896-ef5cf54c26fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SM3R3703T01"
+		(at 0 4.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "821b0230-9ccd-4d96-9802-b76f959a0a79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4b67379-6186-4a00-8d0e-2c921a4f3120")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2214d7cd-0a9e-4a9f-b7a4-7fe2457c6bf9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06d30717-2fe4-4e75-915a-5ba77f495ff5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_arc
+		(start -1.737931 1.655172)
+		(mid -2.205948 -0.945406)
+		(end 0 -2.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "edcd5dd7-efc0-4189-9efb-877fada35049")
+	)
+	(fp_rect
+		(start -2.8 -2.95)
+		(end 2.9 2.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "54c5b7e9-3ff3-49de-a3bf-2c4c494d8e85")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ebc28ac7-92cb-4fb6-9ec8-fa359f4c143e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.65 1.85)
+		(size 4.1 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c6d16831-0619-446a-9e9d-534776e9f4bf")
+	)
+	(pad "2" smd custom
+		(at 2.15 -2.15 180)
+		(size 1.1 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.55 0.55) (xy -0.55 -1.85) (xy 1.85 0.55)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "c916b5ca-1412-4b33-8ce8-d33d559cd11f")
+	)
+	(model "../OpenSprinkler.3d/SUPERCAP_SM3R3703T01.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

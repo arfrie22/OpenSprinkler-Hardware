@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "OpenSprinkler")(type "KiCad")(uri "/Users/gayinc/Projects/OpenSprinkler-Hardware/KiCad/OpenSprinkler.kicad_sym")(options "")(descr ""))
+)
